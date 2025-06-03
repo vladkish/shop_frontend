@@ -75,3 +75,17 @@
 .button_footer:hover {
     border: 1px solid white;
 }
+
+.button_profile {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    transition: .1s ease;
+}
+
+.button_profile:hover {
+    border-color: gray;
+    cursor: pointer;
+}

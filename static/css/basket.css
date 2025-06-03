@@ -1,0 +1,122 @@
+.text_basket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+.count_product {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.cart_basket {
+    border: 4px solid black;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.clean_link {
+    color: black;
+    text-decoration: none;
+}
+
+.doing {
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    gap: 3px;
+}
+
+.cart_count {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete_basket_link {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .1s ease;
+}
+
+.delete_basket_link:hover {
+    color: red;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .delete_basket {
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+        transition: .1s ease;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .delete_basket:hover {
+        color: red;
+    }
+}
+
+.offer_order {
+    /* margin-top: 50px; */
+    background-color: rgb(7, 187, 7);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 4px solid black;
+    transition: .1s ease;
+}
+
+.offer_order:hover {
+    transform: scale(1.1);
+}
+
+.total {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border: 4px solid black;
+}
+
+.total p {
+    font-size: 24px;
+}
+
+.total {
+    background-color: rgb(231, 231, 231);
+}
+
+.nav .head_link {
+    color: black;
+    font-size: 24px;
+}

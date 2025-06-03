@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/basket.css">
     <title>Document</title>
 </head>
 <body class="body">
@@ -12,74 +15,112 @@
             <a href="" class="name_logo">OXXXYSHOP</a>
             <nav class="nav">
                 <ul>
-                    <li>
-                        Главная
-                    </li>
-                    <li>
-                        Одежда
-                    </li>
-                    <li>
-                        Корзина
-                    </li>
-                    <li>
-                        Авторизация/Регистрация
-                    </li>
+                    <li><a href="product.html" class="head_link">Главная</a></li> <li><a href="" class="head_link">Одежда</a></li> 
+                    <li><a href="" class="head_link">Корзина</a></li> <li><a href="" class="head_link"></a>Войти/Создать аккаунт</li>
                 </ul>
             </nav>
         </header>
     <section>
 
-    <section class="profile">
-        <div class="text_profile"><h1>OXXXYSHOP - Профиль</h1></div>
-        <div class="photo_profile"><img src="photo/profile.png" alt="Аватарка пользователя"></div>
-        <form action="" method="post">
-            <div class="first_form">
-                <div class="username">
-                    <label for="">Имя</label>
-                    <input type="text">
+    <section class="center">
+        <section class="profile">
+            <div class="text_profile"><h1>OXXXYSHOP - Профиль</h1></div>
+            <div class="photo"><img src="photo/profile.png" class="photo_profile" alt="Аватарка пользователя"></div>
+            <form action="" method="post" class="form">
+                <div class="form_block">
+                    <div class="username">
+                        <label for="">Имя</label>
+                        <input type="text">
+                    </div>
+                    <div class="lastname">
+                        <label for="">Фамилия</label>
+                        <input type="text">
+                    </div>
                 </div>
-                <div class="lastname">
-                    <label for="">Фамилия</label>
-                    <input type="text">
+
+                <input type="text" placeholder="Выберите изображение" class="select_img">
+
+                <div class="form_block">
+                    <div class="username">
+                        <label for="">Имя пользователя</label>
+                        <input type="text">
+                    </div>
+                    <div class="lastname">
+                        <label for="">Адрес электронной почты</label>
+                        <input type="text">
+                    </div>
+                </div> 
+                <button class="button_profile">Сохранить</button>        
+            </form>
+        </section>
+
+        <section class="basket">
+            <div class="text_basket">
+                <h1>Корзина</h1>
+                <div class="count_product">2</div>
+            </div>
+
+            <div class="cart_basket">
+                <h1>Худи черного цвета с монограммами Кто убил Марка</h1>
+                <p>Мягкая ткань для свитшотов. Свобода - когда не боишься обосраться</p>
+                <hr>
+                <div class="cart_count">
+                    <div class="number">
+                        <p>1</p>
+                        <div class="doing">
+                            <a href="" class="clean_link">+</a>
+                            <a href="" class="clean_link">-</a>
+                        </div>
+                    </div>
+                    <p class="price_basket">609000 руб.</p>
+                    <a href="" class="delete_basket_link">Удалить</a>
                 </div>
             </div>
-            <div class="username">
-                <label for="">Имя</label>
-                <input type="text">
-            </div>  
-            <div class="second_form">
-                <div class="password1">
-                    <label for="">Имя пользователя</label>
-                    <input type="text">
-                </div>
-                <div class="password2">
-                    <label for="">Адрес электронной почты</label>
-                    <input type="text">
-                </div>
-            </div>  
-            <button class="button_profile">Сохранить</button>        
-        </form>
-    </section>
 
-    <section class="basket">
-        <div class="text_basket">
-            <h1>Корзина</h1>
-            <div class="count_product">2</div>
-        </div>
-
-        <div class="cart_basket">
-            <h1>Худи черного цвета с монограммами Кто убил Марка</h1>
-            <p>Мягкая ткань для свитшотов. Свобода - когда не боишься обосраться</p>
-            <div class="cart_count">
-                <div class="number">
-                    <p>1</p>
-                    <a href="" class="clean_link">+</a>
-                    <a href="" class="clean_link">-</a>
+            <div class="cart_basket">
+                <h1>Худи черного цвета с монограммами Кто убил Марка</h1>
+                <p>Мягкая ткань для свитшотов. Свобода - когда не боишься обосраться</p>
+                <hr>
+                <div class="cart_count">
+                    <div class="number">
+                        <p>1</p>
+                        <div class="doing">
+                            <a href="" class="clean_link">+</a>
+                            <a href="" class="clean_link">-</a>
+                        </div>
+                    </div>
+                    <p class="price_basket">609000 руб.</p>
+                    <a href="" class="delete_basket_link">Удалить</a>
                 </div>
-                <p class="price_basket">609000 руб.</p>
-                <a href="" class="delete_basket_link">Удалить</a>
             </div>
-        </div>
+
+            <div class="cart_basket">
+                <h1>Худи черного цвета с монограммами Кто убил Марка</h1>
+                <p>Мягкая ткань для свитшотов. Свобода - когда не боишься обосраться</p>
+                <hr>
+                <div class="cart_count">
+                    <div class="number">
+                        <p>1</p>
+                        <div class="doing">
+                            <a href="" class="clean_link">+</a>
+                            <a href="" class="clean_link">-</a>
+                        </div>
+                    </div>
+                    <p class="price_basket">609000 руб.</p>
+                    <a href="" class="delete_basket_link">Удалить</a>
+                </div>
+            </div>
+
+            <div class="total">
+                <p>Итого</p>
+                <p class="price">6327,00 руб.</p>
+            </div>
+
+            <div class="delete">
+                <a href="" class="delete_basket">Удалить всю корзину</a>
+                <a href="" class="offer_order">Оформить заказ</a>
+            </div>
+        </section>
     </section>
 </body>
 </html>
