@@ -45,6 +45,10 @@
     cursor: pointer;
 }
 
+.category {
+    margin-top: 50px;
+}
+
 .category nav ul li:hover {
     color: black;
     text-decoration: underline;
@@ -68,6 +72,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 60px 0;
+    margin-top: 100px;
 }
 
 .product {
@@ -84,6 +89,13 @@
 
 .product img {
     transition: .1s ease;
+}
+
+.price_product {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .product img:hover {
@@ -196,4 +208,14 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.ul_footer li a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.ul_footer li a:hover {
+    color: gray;
 }

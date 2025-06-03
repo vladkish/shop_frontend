@@ -34,7 +34,7 @@
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: white;
 }
 
 .glow-on-hover:active:after {
@@ -88,4 +88,12 @@
 .button_profile:hover {
     border-color: gray;
     cursor: pointer;
+}
+
+.primary_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
 }
