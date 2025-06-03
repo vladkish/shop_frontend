@@ -12,9 +12,9 @@
     transition: .1s ease;
 }
 
-.glow-on-hover:hover {
+/* .glow-on-hover:hover {
     transform: scale(1.1);
-}
+} */
 
 .glow-on-hover:before {
     content: '';
@@ -63,3 +63,15 @@
     100% { background-position: 0 0; }
 }
 
+.button_footer {
+    color: gray;
+    background-color: black;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    transition: .2s ease;
+    text-decoration: none;
+}
+
+.button_footer:hover {
+    border: 1px solid white;
+}

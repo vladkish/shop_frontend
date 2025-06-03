@@ -1,6 +1,15 @@
+*::selection {
+    color: gray;
+}
+
 .body {
+    margin: 0;
+}
+
+.content {
     max-width: 1400px;
     margin: 0 auto;
+    margin-bottom: 350px;
 }
 
 .header {
@@ -23,6 +32,16 @@
     list-style-type: none;
     gap: 25px;
     font-size: 25px;
+}
+
+.nav ul li {
+    transition: .1s ease;
+}
+
+.nav ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
 }
 
 .category nav ul li:hover {
@@ -55,15 +74,112 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transition: .1s ease;
+    transition: .2s ease;
 }
 
 .product:hover {
     cursor: pointer;
 }
 
+.product img {
+    transition: .1s ease;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
 /* Footer */
 .footer {
     background-color: black;
     color: white;
+}
+
+.footer_block {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.first_text_one_footer {
+    gap: 5px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* Работа с текстом */
+.question_order {
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.time_work, .email {
+    color: gray;
+}
+
+
+.ul_footer li {
+    list-style-type: none;
+}
+
+/* Первый блок */
+.one_footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.first_text_one_footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.second_text_one_footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* Второй блок */
+.two_footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.two_footer h1 {
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.nav_footer ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+    gap: 15px;
+}
+
+.name_logo {
+    user-select: none;
+}
+
+/* Четвертый */
+.four_footer {
+    display: flex; 
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
 }
