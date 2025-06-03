@@ -1,5 +1,5 @@
 *::selection {
-    color: gray;
+    color: #FFA500;
 }
 
 .body {
@@ -189,4 +189,11 @@
 .nav .head_link {
     color: black;
     font-size: 24px;
+}
+
+.links_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
